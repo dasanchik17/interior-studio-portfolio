@@ -83,6 +83,7 @@ body {
 
 .about h2 {
   padding-top: 150px;
+  font-size: 20px;
 }
 
 .about__container__main-text {
@@ -102,5 +103,59 @@ body {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
+}
+
+/* <!-- Секция проектов --> */
+
+.projects {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.projects__item {
+  margin-bottom: 90px;
+}
+
+.projects__img {
+  margin-bottom: 15px;
+}
+
+.projects h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.projects h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.projects a {
+  color: #ad1818;
+  font-size: 20px;
+}
+
+.projects__button {
+  width: 1150px;
+  height: 153px;
+  display: block;
+  margin: 40px auto 0; /* центрирование */
+  padding: 15px 40px;
+  color: #ad1818;
+  border: none;
+  border: 1px solid #ad1818;
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.projects__button:hover {
+  background-color: #ad1818;
+  color: white;
 }
