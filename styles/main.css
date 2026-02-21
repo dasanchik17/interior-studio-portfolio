@@ -140,7 +140,7 @@ body {
 }
 
 .projects__button {
-  width: 1150px;
+  width: 1110px;
   height: 153px;
   display: block;
   margin: 40px auto 0; /* центрирование */
@@ -158,4 +158,95 @@ body {
 .projects__button:hover {
   background-color: #ad1818;
   color: white;
+}
+
+/* <!-- Секция услуги --> */
+
+/* .services {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #121212;
+}
+
+.services__card {
+  margin-top: 210px;
+  margin-left: 125px;
+}
+
+.services h2 {
+  font-size: 18px;
+  color: white;
+} */
+
+.services {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: #121212;
+}
+
+.services__card {
+  max-width: 1150px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.services__card h2 {
+  margin-top: 151px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.services__description {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+/* Анимация при наведении */
+
+.services__card {
+  overflow: hidden;
+}
+
+.services__image {
+  transition: transform 0.4s ease;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.services__image:hover {
+  transform: scale(1.1);
+}
+
+.services__main-img {
+  background-image: url("../src/Rectangle_service5.png");
+}
+
+.services__main-img {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 100vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+}
+
+.services__main-img p {
+  width: 600px;
+  color: white;
+  font-size: 30px;
+  padding-top: 750px;
+  padding-left: 125px;
 }
