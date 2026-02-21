@@ -2,6 +2,8 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+/* Навигационное меню */
+
 .header {
   max-width: 1150px;
   width: 100%;
@@ -44,4 +46,61 @@ body {
 
 .nav__link:hover {
   color: #764ba2;
+}
+
+/* Секция О НАС   */
+
+.about {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about__container-heading {
+  margin-top: 73px;
+  font-size: 60px;
+}
+
+.about__container-img {
+  width: 1150px;
+  height: 500px;
+  background-image: url("../src/Rectangle1.png");
+  background-size: contain;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.about__container-img p {
+  width: 500px;
+  height: 81px;
+  color: white;
+  padding-top: 379px;
+  padding-left: 40px;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.about h2 {
+  padding-top: 150px;
+}
+
+.about__container__main-text {
+  font-size: 45px;
+  padding-top: 30px;
+}
+
+.about__container-button {
+  width: 255px;
+  height: 67px;
+  text-align: center;
+  line-height: normal;
+  padding: 12px 24px;
+  background-color: #ad1818;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
