@@ -1,3 +1,47 @@
 body {
   font-family: "Manrope", sans-serif;
 }
+
+.header {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header__container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase; /* Для заглавных букв как в примере */
+  letter-spacing: 2px;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #764ba2;
+}
